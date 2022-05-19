@@ -1,0 +1,114 @@
+2022-05-19 15:58:13.266  INFO [authorizationService,,] 20200 --- [restartedMain] c.c.AuthorizationMicroserviceApplication : Starting AuthorizationMicroserviceApplication using Java 11.0.14 on LAPTOP-IDG27ARQ with PID 20200 (C:\Users\kavya\OneDrive\Desktop\PensionManagementSystem-master\authorization-microservice\target\classes started by kavya in C:\Users\kavya\OneDrive\Desktop\PensionManagementSystem-master\authorization-microservice)
+2022-05-19 15:58:13.293  INFO [authorizationService,,] 20200 --- [restartedMain] c.c.AuthorizationMicroserviceApplication : No active profile set, falling back to default profiles: default
+2022-05-19 15:58:13.410  INFO [authorizationService,,] 20200 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-19 15:58:13.410  INFO [authorizationService,,] 20200 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-19 15:58:15.093  INFO [authorizationService,,] 20200 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-19 15:58:15.198  INFO [authorizationService,,] 20200 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 81 ms. Found 1 JPA repository interfaces.
+2022-05-19 15:58:15.809  INFO [authorizationService,,] 20200 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=528b1acf-83df-34cd-88dd-6d1010a2cef8
+2022-05-19 15:58:17.613  INFO [authorizationService,,] 20200 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2022-05-19 15:58:17.629  INFO [authorizationService,,] 20200 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-19 15:58:17.630  INFO [authorizationService,,] 20200 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2022-05-19 15:58:17.799  INFO [authorizationService,,] 20200 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-19 15:58:17.800  INFO [authorizationService,,] 20200 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4389 ms
+2022-05-19 15:58:17.899  INFO [authorizationService,,] 20200 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-05-19 15:58:18.232  INFO [authorizationService,,] 20200 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-05-19 15:58:18.242  INFO [authorizationService,,] 20200 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testDB'
+2022-05-19 15:58:18.684  INFO [authorizationService,,] 20200 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-19 15:58:18.777  INFO [authorizationService,,] 20200 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-05-19 15:58:19.045  INFO [authorizationService,,] 20200 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-05-19 15:58:19.301  INFO [authorizationService,,] 20200 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-05-19 15:58:20.503  INFO [authorizationService,,] 20200 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-19 15:58:20.515  INFO [authorizationService,,] 20200 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-19 15:58:22.416  INFO [authorizationService,,] 20200 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-19 15:58:22.656  WARN [authorizationService,,] 20200 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-19 15:58:23.928  INFO [authorizationService,,] 20200 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2512aae4, org.springframework.security.web.context.SecurityContextPersistenceFilter@34638181, org.springframework.security.web.header.HeaderWriterFilter@5fecde2, org.springframework.security.web.authentication.logout.LogoutFilter@11230c74, com.cognizant.filter.JwtFilter@16678411, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4ec9833f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@78ca828a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3ecc4014, org.springframework.security.web.session.SessionManagementFilter@5a4c74de, org.springframework.security.web.access.ExceptionTranslationFilter@23430d20, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@33d4c092]
+2022-05-19 15:58:26.367  INFO [authorizationService,,] 20200 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2022-05-19 15:58:26.595  INFO [authorizationService,,] 20200 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2022-05-19 15:58:27.895  INFO [authorizationService,,] 20200 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2022-05-19 15:58:27.896  INFO [authorizationService,,] 20200 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-05-19 15:58:27.917  INFO [authorizationService,,] 20200 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-05-19 15:58:27.928  INFO [authorizationService,,] 20200 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-05-19 15:58:28.141  INFO [authorizationService,,] 20200 --- [restartedMain] c.c.AuthorizationMicroserviceApplication : Started AuthorizationMicroserviceApplication in 17.158 seconds (JVM running for 18.4)
+2022-05-19 16:03:33.971  INFO [authorizationService,,] 20200 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-19 16:03:33.976  INFO [authorizationService,,] 20200 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-05-19 16:03:34.008  INFO [authorizationService,,] 20200 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 31 ms
+2022-05-19 16:03:34.173  INFO [authorizationService,dd38bf26e0ea5501,63d5fab210e13702] 20200 --- [http-nio-9090-exec-1] c.c.controller.AuthorizationController   : STARTED - generateToken
+2022-05-19 16:03:34.175  INFO [authorizationService,dd38bf26e0ea5501,63d5fab210e13702] 20200 --- [http-nio-9090-exec-1] c.c.service.CustomUserDetailService      : STARTED - loadUserByUsername
+2022-05-19 16:03:34.461  INFO [authorizationService,dd38bf26e0ea5501,63d5fab210e13702] 20200 --- [http-nio-9090-exec-1] c.c.service.CustomUserDetailService      : END - loadUserByUsername
+2022-05-19 16:03:34.464  INFO [authorizationService,dd38bf26e0ea5501,63d5fab210e13702] 20200 --- [http-nio-9090-exec-1] c.c.controller.AuthorizationController   : END - generateToken
+2022-05-19 16:41:42.744  INFO [authorizationService,643e75230782826d,8aff15868ac370ea] 20200 --- [http-nio-9090-exec-3] c.c.service.CustomUserDetailService      : STARTED - loadUserByUsername
+2022-05-19 16:41:42.942  INFO [authorizationService,643e75230782826d,8aff15868ac370ea] 20200 --- [http-nio-9090-exec-3] c.c.service.CustomUserDetailService      : END - loadUserByUsername
+2022-05-19 16:41:43.045  INFO [authorizationService,643e75230782826d,8aff15868ac370ea] 20200 --- [http-nio-9090-exec-3] c.c.controller.AuthorizationController   : STARTED - authorization
+2022-05-19 16:41:43.046  INFO [authorizationService,643e75230782826d,8aff15868ac370ea] 20200 --- [http-nio-9090-exec-3] c.c.service.CustomUserDetailService      : STARTED - loadUserByUsername
+2022-05-19 16:41:43.048  INFO [authorizationService,643e75230782826d,8aff15868ac370ea] 20200 --- [http-nio-9090-exec-3] c.c.service.CustomUserDetailService      : END - loadUserByUsername
+2022-05-19 16:41:43.050  INFO [authorizationService,643e75230782826d,8aff15868ac370ea] 20200 --- [http-nio-9090-exec-3] c.c.controller.AuthorizationController   : END - authorization
+2022-05-19 16:41:44.117  INFO [authorizationService,643e75230782826d,60b4dceed87c49da] 20200 --- [http-nio-9090-exec-4] c.c.service.CustomUserDetailService      : STARTED - loadUserByUsername
+2022-05-19 16:41:44.119  INFO [authorizationService,643e75230782826d,60b4dceed87c49da] 20200 --- [http-nio-9090-exec-4] c.c.service.CustomUserDetailService      : END - loadUserByUsername
+2022-05-19 16:41:44.122  INFO [authorizationService,643e75230782826d,60b4dceed87c49da] 20200 --- [http-nio-9090-exec-4] c.c.controller.AuthorizationController   : STARTED - authorization
+2022-05-19 16:41:44.123  INFO [authorizationService,643e75230782826d,60b4dceed87c49da] 20200 --- [http-nio-9090-exec-4] c.c.service.CustomUserDetailService      : STARTED - loadUserByUsername
+2022-05-19 16:41:44.126  INFO [authorizationService,643e75230782826d,60b4dceed87c49da] 20200 --- [http-nio-9090-exec-4] c.c.service.CustomUserDetailService      : END - loadUserByUsername
+2022-05-19 16:41:44.128  INFO [authorizationService,643e75230782826d,60b4dceed87c49da] 20200 --- [http-nio-9090-exec-4] c.c.controller.AuthorizationController   : END - authorization
+2022-05-19 16:43:57.361  INFO [authorizationService,5e8a8019ee6980bf,072169fbd49774a3] 20200 --- [http-nio-9090-exec-7] c.c.service.CustomUserDetailService      : STARTED - loadUserByUsername
+2022-05-19 16:43:57.362  INFO [authorizationService,5e8a8019ee6980bf,072169fbd49774a3] 20200 --- [http-nio-9090-exec-7] c.c.service.CustomUserDetailService      : END - loadUserByUsername
+2022-05-19 16:43:57.373  INFO [authorizationService,5e8a8019ee6980bf,072169fbd49774a3] 20200 --- [http-nio-9090-exec-7] c.c.controller.AuthorizationController   : STARTED - authorization
+2022-05-19 16:43:57.374  INFO [authorizationService,5e8a8019ee6980bf,072169fbd49774a3] 20200 --- [http-nio-9090-exec-7] c.c.service.CustomUserDetailService      : STARTED - loadUserByUsername
+2022-05-19 16:43:57.375  INFO [authorizationService,5e8a8019ee6980bf,072169fbd49774a3] 20200 --- [http-nio-9090-exec-7] c.c.service.CustomUserDetailService      : END - loadUserByUsername
+2022-05-19 16:43:57.377  INFO [authorizationService,5e8a8019ee6980bf,072169fbd49774a3] 20200 --- [http-nio-9090-exec-7] c.c.controller.AuthorizationController   : END - authorization
+2022-05-19 16:43:58.579  INFO [authorizationService,5e8a8019ee6980bf,46387ff447db2473] 20200 --- [http-nio-9090-exec-8] c.c.service.CustomUserDetailService      : STARTED - loadUserByUsername
+2022-05-19 16:43:58.581  INFO [authorizationService,5e8a8019ee6980bf,46387ff447db2473] 20200 --- [http-nio-9090-exec-8] c.c.service.CustomUserDetailService      : END - loadUserByUsername
+2022-05-19 16:43:58.583  INFO [authorizationService,5e8a8019ee6980bf,46387ff447db2473] 20200 --- [http-nio-9090-exec-8] c.c.controller.AuthorizationController   : STARTED - authorization
+2022-05-19 16:43:58.585  INFO [authorizationService,5e8a8019ee6980bf,46387ff447db2473] 20200 --- [http-nio-9090-exec-8] c.c.service.CustomUserDetailService      : STARTED - loadUserByUsername
+2022-05-19 16:43:58.586  INFO [authorizationService,5e8a8019ee6980bf,46387ff447db2473] 20200 --- [http-nio-9090-exec-8] c.c.service.CustomUserDetailService      : END - loadUserByUsername
+2022-05-19 16:43:58.588  INFO [authorizationService,5e8a8019ee6980bf,46387ff447db2473] 20200 --- [http-nio-9090-exec-8] c.c.controller.AuthorizationController   : END - authorization
+2022-05-19 16:44:13.138  INFO [authorizationService,dc9a45873fed7e93,5b01b40eeeb12325] 20200 --- [http-nio-9090-exec-9] c.c.service.CustomUserDetailService      : STARTED - loadUserByUsername
+2022-05-19 16:44:13.142  INFO [authorizationService,dc9a45873fed7e93,5b01b40eeeb12325] 20200 --- [http-nio-9090-exec-9] c.c.service.CustomUserDetailService      : END - loadUserByUsername
+2022-05-19 16:44:13.146  INFO [authorizationService,dc9a45873fed7e93,5b01b40eeeb12325] 20200 --- [http-nio-9090-exec-9] c.c.controller.AuthorizationController   : STARTED - authorization
+2022-05-19 16:44:13.148  INFO [authorizationService,dc9a45873fed7e93,5b01b40eeeb12325] 20200 --- [http-nio-9090-exec-9] c.c.service.CustomUserDetailService      : STARTED - loadUserByUsername
+2022-05-19 16:44:13.150  INFO [authorizationService,dc9a45873fed7e93,5b01b40eeeb12325] 20200 --- [http-nio-9090-exec-9] c.c.service.CustomUserDetailService      : END - loadUserByUsername
+2022-05-19 16:44:13.153  INFO [authorizationService,dc9a45873fed7e93,5b01b40eeeb12325] 20200 --- [http-nio-9090-exec-9] c.c.controller.AuthorizationController   : END - authorization
+2022-05-19 16:44:13.180  INFO [authorizationService,dc9a45873fed7e93,3fc1c3f66800878b] 20200 --- [http-nio-9090-exec-10] c.c.service.CustomUserDetailService      : STARTED - loadUserByUsername
+2022-05-19 16:44:13.183  INFO [authorizationService,dc9a45873fed7e93,3fc1c3f66800878b] 20200 --- [http-nio-9090-exec-10] c.c.service.CustomUserDetailService      : END - loadUserByUsername
+2022-05-19 16:44:13.188  INFO [authorizationService,dc9a45873fed7e93,3fc1c3f66800878b] 20200 --- [http-nio-9090-exec-10] c.c.controller.AuthorizationController   : STARTED - authorization
+2022-05-19 16:44:13.190  INFO [authorizationService,dc9a45873fed7e93,3fc1c3f66800878b] 20200 --- [http-nio-9090-exec-10] c.c.service.CustomUserDetailService      : STARTED - loadUserByUsername
+2022-05-19 16:44:13.191  INFO [authorizationService,dc9a45873fed7e93,3fc1c3f66800878b] 20200 --- [http-nio-9090-exec-10] c.c.service.CustomUserDetailService      : END - loadUserByUsername
+2022-05-19 16:44:13.194  INFO [authorizationService,dc9a45873fed7e93,3fc1c3f66800878b] 20200 --- [http-nio-9090-exec-10] c.c.controller.AuthorizationController   : END - authorization
+2022-05-19 16:44:48.536  INFO [authorizationService,68eb0299432ae6a3,c752a59b3f887dea] 20200 --- [http-nio-9090-exec-1] c.c.service.CustomUserDetailService      : STARTED - loadUserByUsername
+2022-05-19 16:44:48.539  INFO [authorizationService,68eb0299432ae6a3,c752a59b3f887dea] 20200 --- [http-nio-9090-exec-1] c.c.service.CustomUserDetailService      : END - loadUserByUsername
+2022-05-19 16:44:48.543  INFO [authorizationService,68eb0299432ae6a3,c752a59b3f887dea] 20200 --- [http-nio-9090-exec-1] c.c.controller.AuthorizationController   : STARTED - authorization
+2022-05-19 16:44:48.544  INFO [authorizationService,68eb0299432ae6a3,c752a59b3f887dea] 20200 --- [http-nio-9090-exec-1] c.c.service.CustomUserDetailService      : STARTED - loadUserByUsername
+2022-05-19 16:44:48.546  INFO [authorizationService,68eb0299432ae6a3,c752a59b3f887dea] 20200 --- [http-nio-9090-exec-1] c.c.service.CustomUserDetailService      : END - loadUserByUsername
+2022-05-19 16:44:48.549  INFO [authorizationService,68eb0299432ae6a3,c752a59b3f887dea] 20200 --- [http-nio-9090-exec-1] c.c.controller.AuthorizationController   : END - authorization
+2022-05-19 16:44:48.570  INFO [authorizationService,68eb0299432ae6a3,a58140c16f38700c] 20200 --- [http-nio-9090-exec-2] c.c.service.CustomUserDetailService      : STARTED - loadUserByUsername
+2022-05-19 16:44:48.572  INFO [authorizationService,68eb0299432ae6a3,a58140c16f38700c] 20200 --- [http-nio-9090-exec-2] c.c.service.CustomUserDetailService      : END - loadUserByUsername
+2022-05-19 16:44:48.574  INFO [authorizationService,68eb0299432ae6a3,a58140c16f38700c] 20200 --- [http-nio-9090-exec-2] c.c.controller.AuthorizationController   : STARTED - authorization
+2022-05-19 16:44:48.575  INFO [authorizationService,68eb0299432ae6a3,a58140c16f38700c] 20200 --- [http-nio-9090-exec-2] c.c.service.CustomUserDetailService      : STARTED - loadUserByUsername
+2022-05-19 16:44:48.578  INFO [authorizationService,68eb0299432ae6a3,a58140c16f38700c] 20200 --- [http-nio-9090-exec-2] c.c.service.CustomUserDetailService      : END - loadUserByUsername
+2022-05-19 16:44:48.581  INFO [authorizationService,68eb0299432ae6a3,a58140c16f38700c] 20200 --- [http-nio-9090-exec-2] c.c.controller.AuthorizationController   : END - authorization
+2022-05-19 16:46:30.742  INFO [authorizationService,645400ce2f8f25e1,78dbcfc8a4a0a32d] 20200 --- [http-nio-9090-exec-5] c.c.service.CustomUserDetailService      : STARTED - loadUserByUsername
+2022-05-19 16:46:30.744  INFO [authorizationService,645400ce2f8f25e1,78dbcfc8a4a0a32d] 20200 --- [http-nio-9090-exec-5] c.c.service.CustomUserDetailService      : END - loadUserByUsername
+2022-05-19 16:46:30.749  INFO [authorizationService,645400ce2f8f25e1,78dbcfc8a4a0a32d] 20200 --- [http-nio-9090-exec-5] c.c.controller.AuthorizationController   : STARTED - authorization
+2022-05-19 16:46:30.750  INFO [authorizationService,645400ce2f8f25e1,78dbcfc8a4a0a32d] 20200 --- [http-nio-9090-exec-5] c.c.service.CustomUserDetailService      : STARTED - loadUserByUsername
+2022-05-19 16:46:30.753  INFO [authorizationService,645400ce2f8f25e1,78dbcfc8a4a0a32d] 20200 --- [http-nio-9090-exec-5] c.c.service.CustomUserDetailService      : END - loadUserByUsername
+2022-05-19 16:46:30.755  INFO [authorizationService,645400ce2f8f25e1,78dbcfc8a4a0a32d] 20200 --- [http-nio-9090-exec-5] c.c.controller.AuthorizationController   : END - authorization
+2022-05-19 16:46:30.778  INFO [authorizationService,645400ce2f8f25e1,c49e732eb76e78d4] 20200 --- [http-nio-9090-exec-6] c.c.service.CustomUserDetailService      : STARTED - loadUserByUsername
+2022-05-19 16:46:30.779  INFO [authorizationService,645400ce2f8f25e1,c49e732eb76e78d4] 20200 --- [http-nio-9090-exec-6] c.c.service.CustomUserDetailService      : END - loadUserByUsername
+2022-05-19 16:46:30.780  INFO [authorizationService,645400ce2f8f25e1,c49e732eb76e78d4] 20200 --- [http-nio-9090-exec-6] c.c.controller.AuthorizationController   : STARTED - authorization
+2022-05-19 16:46:30.781  INFO [authorizationService,645400ce2f8f25e1,c49e732eb76e78d4] 20200 --- [http-nio-9090-exec-6] c.c.service.CustomUserDetailService      : STARTED - loadUserByUsername
+2022-05-19 16:46:30.782  INFO [authorizationService,645400ce2f8f25e1,c49e732eb76e78d4] 20200 --- [http-nio-9090-exec-6] c.c.service.CustomUserDetailService      : END - loadUserByUsername
+2022-05-19 16:46:30.784  INFO [authorizationService,645400ce2f8f25e1,c49e732eb76e78d4] 20200 --- [http-nio-9090-exec-6] c.c.controller.AuthorizationController   : END - authorization
+2022-05-19 16:47:01.385  INFO [authorizationService,5f6df04e9781710a,50630ab2797ae818] 20200 --- [http-nio-9090-exec-7] c.c.service.CustomUserDetailService      : STARTED - loadUserByUsername
+2022-05-19 16:47:01.388  INFO [authorizationService,5f6df04e9781710a,50630ab2797ae818] 20200 --- [http-nio-9090-exec-7] c.c.service.CustomUserDetailService      : END - loadUserByUsername
+2022-05-19 16:47:01.392  INFO [authorizationService,5f6df04e9781710a,50630ab2797ae818] 20200 --- [http-nio-9090-exec-7] c.c.controller.AuthorizationController   : STARTED - authorization
+2022-05-19 16:47:01.394  INFO [authorizationService,5f6df04e9781710a,50630ab2797ae818] 20200 --- [http-nio-9090-exec-7] c.c.service.CustomUserDetailService      : STARTED - loadUserByUsername
+2022-05-19 16:47:01.395  INFO [authorizationService,5f6df04e9781710a,50630ab2797ae818] 20200 --- [http-nio-9090-exec-7] c.c.service.CustomUserDetailService      : END - loadUserByUsername
+2022-05-19 16:47:01.398  INFO [authorizationService,5f6df04e9781710a,50630ab2797ae818] 20200 --- [http-nio-9090-exec-7] c.c.controller.AuthorizationController   : END - authorization
+2022-05-19 16:47:01.425  INFO [authorizationService,5f6df04e9781710a,e39bb97d858d153c] 20200 --- [http-nio-9090-exec-8] c.c.service.CustomUserDetailService      : STARTED - loadUserByUsername
+2022-05-19 16:47:01.427  INFO [authorizationService,5f6df04e9781710a,e39bb97d858d153c] 20200 --- [http-nio-9090-exec-8] c.c.service.CustomUserDetailService      : END - loadUserByUsername
+2022-05-19 16:47:01.429  INFO [authorizationService,5f6df04e9781710a,e39bb97d858d153c] 20200 --- [http-nio-9090-exec-8] c.c.controller.AuthorizationController   : STARTED - authorization
+2022-05-19 16:47:01.431  INFO [authorizationService,5f6df04e9781710a,e39bb97d858d153c] 20200 --- [http-nio-9090-exec-8] c.c.service.CustomUserDetailService      : STARTED - loadUserByUsername
+2022-05-19 16:47:01.433  INFO [authorizationService,5f6df04e9781710a,e39bb97d858d153c] 20200 --- [http-nio-9090-exec-8] c.c.service.CustomUserDetailService      : END - loadUserByUsername
+2022-05-19 16:47:01.436  INFO [authorizationService,5f6df04e9781710a,e39bb97d858d153c] 20200 --- [http-nio-9090-exec-8] c.c.controller.AuthorizationController   : END - authorization
+2022-05-19 16:53:39.530  INFO [authorizationService,e528c0aa61201bc2,0ff541d2ffc59393] 20200 --- [http-nio-9090-exec-1] c.c.controller.AuthorizationController   : STARTED - generateToken
+2022-05-19 16:53:39.532  INFO [authorizationService,e528c0aa61201bc2,0ff541d2ffc59393] 20200 --- [http-nio-9090-exec-1] c.c.service.CustomUserDetailService      : STARTED - loadUserByUsername
+2022-05-19 16:53:39.534  INFO [authorizationService,e528c0aa61201bc2,0ff541d2ffc59393] 20200 --- [http-nio-9090-exec-1] c.c.service.CustomUserDetailService      : END - loadUserByUsername
+2022-05-19 16:53:39.536  INFO [authorizationService,e528c0aa61201bc2,0ff541d2ffc59393] 20200 --- [http-nio-9090-exec-1] c.c.controller.AuthorizationController   : END - generateToken
